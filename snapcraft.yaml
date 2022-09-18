@@ -17,7 +17,7 @@ parts:
  ros-demos:
    plugin: colcon
    source: https://github.com/ros2/demos.git
-   source-branch: foxy
+   source-branch: humble
    source-subdir: demo_nodes_cpp
    stage-packages: [ros-humble-ros2launch]
 
