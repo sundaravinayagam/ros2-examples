@@ -8,7 +8,7 @@ license: AGPL-1.0-only
 
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: devmode
-base: core22
+base: core20
 
 architectures:
   - arm64
@@ -17,7 +17,7 @@ parts:
  ros-demos:
    plugin: colcon
    source: https://github.com/ros2/demos.git
-   source-branch: humble
+   source-branch: foxy
    source-subdir: demo_nodes_cpp
    stage-packages: [ros-humble-ros2launch]
 
