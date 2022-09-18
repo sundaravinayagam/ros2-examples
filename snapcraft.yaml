@@ -1,4 +1,4 @@
-name: ros2-talker-listener
+name: tcr-ros2-talker-listener
 version: '0.1'
 summary: ROS 2 Talker/Listener Example
 description: |
