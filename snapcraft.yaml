@@ -8,7 +8,7 @@ license: AGPL-1.0-only
 
 grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: devmode
-base: core18
+base: core20
 
 architectures:
   - arm64
